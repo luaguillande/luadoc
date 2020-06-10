@@ -1,0 +1,200 @@
+$base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !default;
+$code-font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace !default;
+@import 'colors.scss';
+
+.flex{
+  display: flex;
+  
+  div{
+    flex: 1
+  }
+}
+
+body{
+  color: $info;
+  margin: 0;
+  font-family: $base-font-family;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+a{
+  color: $accentpurple;
+}
+.content{
+  @extend .flex;
+  
+  @media (max-width:620px) {
+    display: block;
+  }
+}
+.props {
+  .proprow:nth-child(even) {
+    background-color: transparentize(#2b3b43, 0.95);
+  }
+  .proprow {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1.6rem 0.8rem;
+    
+    
+  }
+  .labels {
+    padding: 0.8rem;
+    > .propcol {
+      font-size: 1rem;
+      font-weight: 400;
+      text-transform: uppercase;
+      color: #547484;
+    }
+    .name span {
+      margin-left: 0.4rem;
+    }
+  }
+  .propcol {
+    font-size: 1.2rem;
+    flex: 1;
+    &.notes {
+      flex: 2;
+    }
+  }
+  .name {
+    font-weight: 600;
+    color: $darkpurple;
+  }
+}
+.propcol * {
+  display: inline;
+}
+.luadoc-content {
+  font-family: $base-font-family;
+  padding-bottom: 80px;
+  
+  &:not(:last-child){
+    margin-bottom: 30px;
+    border-bottom: 1px solid $softpurple;
+  }
+}
+
+.title{
+  color: $darkpurple;
+  text-transform: uppercase;
+  border: 1px solid $midpurple;
+  display: inline;
+  padding: 5px 10px;
+}
+code {
+  font-family: $code-font-family;
+  background-color: $softpurple;
+  color: $darkpurple;
+  padding: 0.2rem;
+}
+pre code {
+  line-height: 1.8;
+  padding: 1.2rem;
+  &.labelled, .token & {
+    position: relative;
+    margin-bottom: 2rem;
+    &:after {
+      content: attr(data-lang);
+      font-size: 0.8rem;
+      color: #CE7780;
+      font-weight: 600;
+      font-family: $base-font-family;
+      position: absolute;
+      right: 1.2rem;
+      bottom: -2rem;
+    }
+  }
+}
+.use, .props {
+  margin: 2.8rem 0;
+}
+.token pre {
+  margin: 0;
+}
+.use {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  
+  @media (max-width:620px) {
+    display: block;
+    
+    .token pre{
+      margin-top: 40px;
+    }
+    
+  }
+}
+
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $softinfo;
+  padding: 5px 0;
+  
+  .logo{
+    transform: translateY(-6px) scale(1.6);
+    margin-left: 65px;
+    background: transparent;
+    box-shadow: none;
+    color: $darkpurple;
+    font-size: 10px;
+    
+    .doc{
+      font-size: 13px;
+    text-shadow: 1px 1px 0px #391d86;
+
+    }
+    
+    .moon{
+      font-size: 10px;
+      
+    }
+    
+  }
+  .logo31{
+    align-items: center;
+    display: flex;
+    font-size: 15px;
+
+    img{
+      height: 40px;
+      margin-right: 55px;
+      
+    }
+  }
+}
+
+.logo{
+  cursor: context-menu;
+  padding: 10px;
+  background: #ffffff9c;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  transform: translateY(-16px);
+  box-shadow: 1px 1px 5px #2c175d8a;
+  border-radius: 4px;
+  
+  .doc{
+    transform:  translateY(6px);
+    font-size: 20px;
+    font-style: italic; 
+    text-shadow: 2px 2px 0px #391d86;
+    color: #eca504;
+    
+  }
+  .moon{
+    transform: rotatez(-240deg) translateY(-5px) translateX(7px);
+    font-size: 16px;
+  }
+  img{
+    max-height: 100%;
+  }
+}

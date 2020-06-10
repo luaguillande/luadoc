@@ -1,0 +1,23 @@
+{
+  "name": "@luaguillande/luadoc",
+  "version": "1.0.5",
+  "description": "A tool to improve your Vuejs project documentation.",
+  "main": "luadoc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luana Guillande",
+  "license": "MIT",
+  "keywords": [
+    "doc",
+    "documentation",
+    "helpers",
+    "vue",
+    "components"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luaguillande/luadoc"
+  }
+  
+}
