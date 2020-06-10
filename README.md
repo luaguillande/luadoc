@@ -86,9 +86,9 @@ mix.js('node_modules/@luaguillande/luadoc/doc/luadoc.js', 'public/js')
   }
 ```
 
-## 5. Adicionar metadados aos componentes que deseja documentar. 
+## 5. Add metadata to componentes 
 
-### 5.1. Metadata obrigatórios:
+### 5.1. Mandatory Metadata:
 
 ```vue
   export default{
@@ -97,7 +97,7 @@ mix.js('node_modules/@luaguillande/luadoc/doc/luadoc.js', 'public/js')
       token: `<comp-a label='foo'></comp-a>`,
   }
 ```
- ### 5.2. Metadata adicionais:
+ ### 5.2. Optional Metadata:
 
 ```vue
     img: "imgs/doc/compa.png",
@@ -127,7 +127,7 @@ mix.js('node_modules/@luaguillande/luadoc/doc/luadoc.js', 'public/js')
     }
 ```
 
- ## Enjoy.
+ ## Enjoy! 
 
   @luaguillande - 31solutions.com
 
