@@ -5,24 +5,23 @@ A tool to improve your Vuejs project documentation.
 
 <br>
 <br>
-  
 
 ## Demo
 
 ### Map the props
-<img src="https://raw.githubusercontent.com/luaguillande/luadoc/master/doc/lib/assets/demo1.png">
+<img src="https://raw.githubusercontent.com/luaguillande/luadoc/master/doc/lib/assets/demo1.jpg">
 <br>
 <br>
 
 ### Map the slots
   
-<img src="https://raw.githubusercontent.com/luaguillande/luadoc/master/doc/lib/assets/demo2.png">
+<img src="https://raw.githubusercontent.com/luaguillande/luadoc/master/doc/lib/assets/demo2.jpg">
 <br>
 <br>
 
 ### Map the usage
   
-<img src="https://raw.githubusercontent.com/luaguillande/luadoc/master/doc/lib/assets/demo3.png">
+<img src="https://raw.githubusercontent.com/luaguillande/luadoc/master/doc/lib/assets/demo3.jpg">
 
 <br>
 <br>
@@ -97,6 +96,7 @@ mix.js('node_modules/@luaguillande/luadoc/doc/luadoc.js', 'public/js')
       token: `<comp-a label='foo'></comp-a>`,
   }
 ```
+
 ### 5.2. Optional Metadata:
 
 ```vue
@@ -129,5 +129,5 @@ mix.js('node_modules/@luaguillande/luadoc/doc/luadoc.js', 'public/js')
 
 ## Enjoy! 
 
-  @luaguillande - 31solutions.com
+@luaguillande - 31solutions.com
 
