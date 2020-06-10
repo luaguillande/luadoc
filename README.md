@@ -97,7 +97,7 @@ mix.js('node_modules/@luaguillande/luadoc/doc/luadoc.js', 'public/js')
       token: `<comp-a label='foo'></comp-a>`,
   }
 ```
- ### 5.2. Optional Metadata:
+### 5.2. Optional Metadata:
 
 ```vue
     img: "imgs/doc/compa.png",
@@ -127,7 +127,7 @@ mix.js('node_modules/@luaguillande/luadoc/doc/luadoc.js', 'public/js')
     }
 ```
 
- ## Enjoy! 
+## Enjoy! 
 
   @luaguillande - 31solutions.com
 
