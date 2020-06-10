@@ -10,19 +10,19 @@ A tool to improve your Vuejs project documentation.
 ## Demo
 
 ### Map the props
-<img src="lib/assets/demo1.png">
+<img src="https://raw.githubusercontent.com/luaguillande/luadoc/master/doc/lib/assets/demo1.png">
 <br>
 <br>
 
 ### Map the slots
   
-<img src="lib/assets/demo2.png">
+<img src="https://raw.githubusercontent.com/luaguillande/luadoc/master/doc/lib/assets/demo2.png">
 <br>
 <br>
 
 ### Map the usage
   
-<img src="lib/assets/demo3.png">
+<img src="https://raw.githubusercontent.com/luaguillande/luadoc/master/doc/lib/assets/demo3.png">
 
 <br>
 <br>
