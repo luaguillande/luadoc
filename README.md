@@ -1,5 +1,5 @@
 
-# LuaDoc Document
+# LuaDoc - Documentation for Vuejs Components 
 
 A tool to improve your Vuejs project documentation.
 
