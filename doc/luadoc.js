@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Documentation from './lib/Documentation.vue'
-import './doc/style.scss'
+import './lib/style.scss'
 
 window.luadoc = new Vue({
   el: '#app',

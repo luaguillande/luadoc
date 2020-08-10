@@ -51,7 +51,7 @@ Exemple to create a local route (doesn't work in production) in Laravel.
 ```bash
     if (App::environment('local')) {
       Route::get('doc', function () {
-        View::addNamespace('Folder', '../node_modules/@luaguillande/luadoc');
+        View::addNamespace('Folder', '../node_modules/@luaguillande/luadoc/doc');
         return View::make('Folder::doc');
       });
     }
